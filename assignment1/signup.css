@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.body-con{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.icons8.com/material-rounded/24/FAB005/hexagonal-pattern.png");
+}
+.con{
+    height: 60%;
+    width: 20%;
+    padding: 25px;
+    background-color: #d250f9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid white; */
+    /* border-radius: 50px; */
+    width: 96px;
+    height: 96px;
+    margin: 5px 0px;
+    
+}
+
+.form-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: red; */
+}
+.form-ele-holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form-ele-holder input{
+    height: 50px;
+    margin: 5px 0px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    width: 80%;
+    padding: 0px 20px;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.form-ele-holder .signup-btn{
+    width: 50%;
+    background-color: #3df9cd;
+}
+.alr-mem p a{
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+}
